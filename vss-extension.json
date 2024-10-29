@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "TrackerPointFirst",
     "publisher": "trackpoint",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "My First Extension LALA",
     "description": "A sample Visual Studio Services extension",
     "public": false,
@@ -20,7 +20,7 @@
                 "ms.vss-work-web.work-hub-group"
             ],
             "properties": {
-                "name": "My Hub",
+                "name": "TrackPoint",
                 "uri": "my-hub.html"
             }
         }
@@ -29,6 +29,11 @@
         {
             "path": "my-hub.html",
             "addressable": true
+        },
+        {
+            "path": "node_modules/azure-devops-extension-sdk",
+            "addressable": true,
+            "packagePath": "lib"
         }
     ]
 }
